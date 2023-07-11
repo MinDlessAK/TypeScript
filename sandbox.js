@@ -24,20 +24,46 @@ const char="karan"
  })
 
  */
+/*
 //chapter-3
-//Types Basics
-var namee = "mario";
-var age = 30;
-var isblackbelt = false;
+  //Types Basics
+   
+let namee="mario"
+let age=30;
+let isblackbelt=false;
+
 //it will Show error
 //ts have strict type so it dont change dynamicly
+
 //namee=20;
-namee = 'luigi';
+namee='luigi';
+
 //age='yoshi';
-age = 40;
+age=40;
+
 //isblackbelt='yes';
-isblackbelt = true;
-var circ = function (diameter) {
-    return diameter * Math.PI;
+isblackbelt=true;
+
+var circ= function (diameter:number){
+  return diameter*Math.PI
 };
+
 console.log(circ(10));
+
+*/
+//Chapter-4
+//Array And Object
+//Array
+var names = ['luigi', 'mario', 'yoshi'];
+names.push('toad');
+//in ts this will throw error
+//names.push(3);
+var numbers = [10, 20, 30, 40];
+numbers.push(25);
+numbers.pop();
+//this also show same error as upper one
+//numbers.push('shaun');
+//mixed types of array
+var mixed = ['ken', 4, 'chun-li', 8, 9, true];
+mixed.push('akash');
+mixed.push(37);
