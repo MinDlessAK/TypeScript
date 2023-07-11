@@ -254,3 +254,22 @@ const minus =(a:number,b:number):number=>{
 let result=minus(4,90);
 
 */
+/*
+//chapter-9
+//type Aliases
+
+type stringORnum=string|number;
+type multiType={
+ name:string,
+ uid:number
+}
+
+const logdetails =(uid:stringORnum,item:string)=>{
+ console.log(`${item} has auid of ${uid}`);
+}
+
+
+const greet =(user:multiType)=>{
+  console.log(`${user.name} say hello`); }
+
+*/
