@@ -67,3 +67,26 @@ numbers.pop();
 var mixed = ['ken', 4, 'chun-li', 8, 9, true];
 mixed.push('akash');
 mixed.push(37);
+//Object
+// after creating object we cant add additional property like name ,age,belt;
+var ninja = {
+    name: 'mario',
+    belt: 'black',
+    age: 30
+};
+ninja.age = 40;
+ninja.name = 'ryu';
+//we cant do this bcz age shloud be number it cant be string
+//ninja.age='30'
+//we cant chnage type of ninja
+//ninja=""
+//lets change the same object
+ninja = {
+    name: 'yoshi',
+    belt: 'ornage',
+    age: 45
+};
+//but you cant change the intial structure of object
+// you should provide same things like name,belt,age;
+//otherwise is will show error 
+//comment age and u will get error
