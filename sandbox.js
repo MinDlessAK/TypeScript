@@ -107,8 +107,89 @@ mixed.push(37);
    //comment age and u will get error
 
 */
+/*
 //chapter-5
-//explicit types
-//array
+
+   //explicit types
+
+   // sometime you should not provide value to variable
+   // and intislized in later or by refrence
+   let character:string;
+   let age:number;
+   let isloggedin:boolean;
+   //and that how we decalre explicity types of variable
+
+
+ // we cant set age value as string
+ //we already sepcified the age is types of number
+  //age='luigi';
+  
+  
+//that is fine
+  age=30;
+
+  //isloggedin=25
+  isloggedin=true;
+
+
+
+   //array
+let ninjas:string[]=[];
+
+//as you know we cant put number in it
+//bcs this is string types of array
+//ninjas=[30,99,44];
+
+// ninjas=['yoshi','mario','snake']
+
+ninjas.push('shubham wait');
+//as you know we create athe string type array
+// then decalre the array
+//if you dont declare the array and try to push value in it
+//it will show error bcz you didnt decalre the array
+
+//note:- you can pass empty array when  you ar intailzing the array
+//like this "let ninjas:string[]=[]; "
+//now you can use push method '
+//you just decalre empty array so u cant push in that array
+
+
+
 //union types
+//in this type we can make array and variable  multi-types
+
+
+// use parthisis when applying uinion types of array
+let mixed:(string|number|boolean)[]=[];
+
+mixed.push('helloo')
+mixed.push(9);
+mixed.push(true);
+console.log(mixed);
+
+//use uinion types in  varibale like this
+let uid:string|number;
+uid=23;
+uid="123"
+
+
+
 //object
+
+let ninjaone:object;
+
+ninjaone={
+   name:'yoshi',
+   age:20
+}
+let ninjatwo:{
+   name: string,
+   age:number,
+   beltcolour: string
+}
+ninjatwo={
+   name:'mario',
+   age: 21,
+   beltcolour:'bllack'
+}
+*/ 
