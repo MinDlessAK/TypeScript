@@ -199,4 +199,34 @@ ninjatwo={
 }
 */
 
+/*
 //chapter-6
+ //dynamic(any)types
+  
+let age:any=25;
+age=true;
+console.log(age);
+age='hello'
+console.log(age);
+age={name:'luigi'};
+console.log(age);
+
+let mixed:any[]=[];
+mixed.push(5);
+mixed.push('shubham');
+mixed.push(true);
+console.log(mixed);
+
+let ninjathree:{name:any ,age:any}
+
+ninjathree={name:'akash',age:34};
+console.log(ninjathree);
+
+ninjathree={name:25,age:'yoshi'};
+console.log(ninjathree);
+
+*/
+
+
+//chapter-7
+ //
