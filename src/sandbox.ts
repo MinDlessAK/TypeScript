@@ -227,6 +227,43 @@ console.log(ninjathree);
 
 */
 
-
+/*
 //chapter-7
  console.log('testing123')
+
+ //explain later
+
+ */
+
+ 
+ /*
+
+//chapter-8
+   //function basic
+ let rat=()=>{
+   console.log('hello,arrow function')
+}
+
+let greet: Function;
+greet=()=>{
+   console.log('hello function type greet')
+}
+
+//!important
+const add=(a:number,b:number,c?:number|string)=>{
+   console.log(a+b);
+   console.log(c);
+}
+add(5,8,'pala');
+
+const minus =(a:number,b:number):number=>{
+   return a-b;
+}
+let result=minus(4,90);
+
+*/
+
+
+
+
+ 
