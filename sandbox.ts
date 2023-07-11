@@ -55,6 +55,8 @@ console.log(circ(10));
 */
 
 
+/*
+
 
 //Chapter-4
    //Array And Object
@@ -107,5 +109,18 @@ mixed.push(37);
    // you should provide same things like name,belt,age;
    //otherwise is will show error 
    //comment age and u will get error
-   
 
+*/
+
+//chapter-5
+
+   //explicit types
+
+
+
+//array
+
+//union types
+
+
+//object

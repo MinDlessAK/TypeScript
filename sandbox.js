@@ -51,42 +51,64 @@ var circ= function (diameter:number){
 console.log(circ(10));
 
 */
+/*
+
+
 //Chapter-4
-//Array And Object
-//Array
-var names = ['luigi', 'mario', 'yoshi'];
+   //Array And Object
+
+   //Array
+let names=['luigi','mario','yoshi'];
+
 names.push('toad');
+
 //in ts this will throw error
 //names.push(3);
-var numbers = [10, 20, 30, 40];
+
+
+let numbers=[10,20,30,40];
 numbers.push(25);
 numbers.pop();
+
+
 //this also show same error as upper one
 //numbers.push('shaun');
+
 //mixed types of array
-var mixed = ['ken', 4, 'chun-li', 8, 9, true];
+let mixed=['ken',4,'chun-li',8,9,true];
+
 mixed.push('akash');
 mixed.push(37);
-//Object
-// after creating object we cant add additional property like name ,age,belt;
-var ninja = {
-    name: 'mario',
-    belt: 'black',
-    age: 30
-};
-ninja.age = 40;
-ninja.name = 'ryu';
-//we cant do this bcz age shloud be number it cant be string
-//ninja.age='30'
-//we cant chnage type of ninja
-//ninja=""
-//lets change the same object
-ninja = {
-    name: 'yoshi',
-    belt: 'ornage',
-    age: 45
-};
-//but you cant change the intial structure of object
-// you should provide same things like name,belt,age;
-//otherwise is will show error 
-//comment age and u will get error
+
+   //Object
+   // after creating object we cant add additional property like name ,age,belt;
+   let ninja={
+      name: 'mario',
+      belt: 'black',
+      age:30
+   };
+    ninja.age=40;
+    ninja.name='ryu';
+
+    //we cant do this bcz age shloud be number it cant be string
+    //ninja.age='30'
+    //we cant chnage type of ninja
+    //ninja=""
+
+    //lets change the same object
+     ninja={
+      name: 'yoshi',
+      belt: 'ornage',
+      age:45
+   };
+   //but you cant change the intial structure of object
+   // you should provide same things like name,belt,age;
+   //otherwise is will show error
+   //comment age and u will get error
+
+*/
+//chapter-5
+//explicit types
+//array
+//union types
+//object
