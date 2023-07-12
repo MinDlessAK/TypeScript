@@ -1,3 +1,7 @@
+/*
+chapter-11
+//DOM
+
 // const anchor= document.querySelector('a')!;
 // if(anchor){
 //      console.log(anchor.href)
@@ -31,4 +35,42 @@ form.addEventListener('submit',(e:Event)=>{
     )
 })
 
- 
+*/
+/*
+//chapter-12
+//class
+
+class Invoice{
+    client:string;
+    details:string;
+    amount:number;
+    
+    constructor(c:string,d:string,a:number){
+        this.client=c;
+        this.details=d;
+        this.amount=a;
+    }
+
+    format(){
+        return `${this.client} owes @${this.amount} for ${this.details} `
+    }
+
+}
+const invone=new Invoice('mario','work on mario website' , 250)
+const invtwo=new Invoice('yoshi','work on yoshi website' , 300)
+let invoices:Invoice[]=[];
+
+invoices.push(invone)
+invoices.push(invtwo)
+
+//do not recommend to change mannulay 
+//you can use acess modifier if you dont want it to change
+// invone.client='luigi'
+// invtwo.amount=400;
+// console.log(invone,invtwo)
+
+console.log(invoices);
+*/
+
+//chapter-13
+  //Access sepecifier
